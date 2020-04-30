@@ -1,0 +1,29 @@
+.container {
+  max-height: 650px;
+  min-height: 350px;
+  width: 250px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  background: white;
+}
+
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+}
+
+#tabtitle {
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+a {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.mascot {
+  float: right;
+  width: 100px;
+  height: auto;
+}

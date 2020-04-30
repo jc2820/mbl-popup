@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/popup.css" />
+    <title>Submit an issue</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="images/favicon.png"
+        alt="image of friendly mascot"
+        class="mascot"
+      />
+      <div class="page-header">
+        <h3>Submit a new issue</h3>
+        <p id="tabtitle">
+          Submit an issue and a relevant support link to add them to the popups
+          that will appear for users of this extension.
+        </p>
+      </div>
+
+      <fieldset class="form-group">
+        <legend>Add an issue</legend>
+        <label>Enter the name of your issue</label>
+        <input class="form-control" type="text" id="input-issue" />
+        <br />
+        <label>Enter a link to support for this issue</label>
+        <input class="form-control" type="text" id="input-link" />
+        <br />
+        <button class="btn btn-primary" id="submit-issue">Submit</button>
+      </fieldset>
+      <div class="page-header">
+        <a href="popup.html">Sign in page</a>
+      </div>
+      <br />
+    </div>
+    <script src="/scripts/jquery.min.js" type="text/javascript"></script>
+    <script src="/scripts/popup.js" type="text/javascript"></script>
+  </body>
+</html>
